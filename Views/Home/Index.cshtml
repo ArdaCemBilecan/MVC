@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Student>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown button
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+</div>
+
+<body>
+    <table class="table"> 
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.FirstName)</th>
+                <th>@Html.DisplayNameFor(model => model.LastName)</th>
+                <th>@Html.DisplayNameFor(model => model.EMail)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model)
+            {
+            <tr>
+                <td>
+                    @item.FirstName
+                </td>
+                <td>
+                    @item.LastName
+                </td>
+                <td>
+                    @item.EMail
+                </td>
+
+                <td>
+                    <a asp-action="Index" asp-route-id="@item.Id">Delete</a>
+                </td>
+
+                <td>
+                    <a asp-action="Update" asp-route-id="@item.Id">Update</a>
+                </td>
+            </tr>
+
+            }
+        </tbody>
+    </table>
+    <div>
+        <a asp-action="Create">Create New</a>
+    </div>
+
+</body>
+
+
+</html>
+
