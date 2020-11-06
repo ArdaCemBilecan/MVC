@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewData["Title"] = "VHF & MF-HF Service";
+}
+@section metas
+{
+    <meta name="description" content="VHF & MF-HF services and product ranges.">
+    <meta name="keywords" content="vhf, mf-hf, vhf mf hf">
+}
+<section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+
+        <ol>
+            <li><a asp-action="Services" asp-controller="Home" title="VHF & MF-HF">Services</a></li>
+            <li>@ViewData["Title"]</li>
+        </ol>
+
+
+    </div>
+</section><!-- End Breadcrumbs -->
+
+<section id="portfolio" class="portfolio">
+    <div class="container">
+
+        <div class="section-title">
+            <span>VHF & MF - HF</span>
+            <h1>VHF & MF - HF</h1>
+        </div>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="150">
+
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="~/img/Vhf_mf_hf/@item.Image" class="img-fluid" alt="" style="border: 1px solid rgba(255, 0, 0, .1)" ;>
+                    <div class="portfolio-info">
+                        <a href="~/img/Vhf_mf_hf/@item.Image" data-gall="portfolioGallery" class="venobox preview-link" title="VHF & MF-HF" alt="VHF & MF-HF"><i class="bx bx-expand"></i></a>
+                        <h3 style="color:darkred; font-size:22px;"> @item.ProductName </h3>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

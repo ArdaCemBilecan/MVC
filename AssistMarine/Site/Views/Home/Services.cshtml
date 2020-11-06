@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Marine Services";
+}
+@section metas
+{
+    <meta name="description" content="We are proud to be with you with dozens of brands and services. Click to review our services.">
+    <meta name="keywords" content="marine, services, Turkey">
+}
+<section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+
+        <ol>
+            <li><a asp-action="Index" title="Home">Home</a></li>
+            <li>@ViewData["Title"]</li>
+        </ol>
+        <h1>Services</h1>
+
+    </div>
+</section><!-- End Breadcrumbs -->
+<!-- ======= Services Section ======= -->
+<section id="portfolio" class="portfolio">
+    <div class="section-title">
+        <span>Marine Services</span>
+        <h2>Marine Services</h2>
+        <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+    </div>
+    <div class="row mx-4">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="view overlay">
+                        <a asp-action="@item.ControlName" asp-controller="Services">
+                            <img class="card-img-top" src="~/category/@item.Image" title="@item.PageName">
+                        </a>
+                    </div>
+                    <div class="card-body" style="text-align:center;">
+                        <h4 class="card-title" style="color:darkred;font-size:110%">@item.PageName</h4>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+
+</section><!-- End Services Section -->

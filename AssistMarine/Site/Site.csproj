@@ -1,0 +1,340 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>9a930803-bde1-4ea6-81ba-56846ac684d7</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\zAdmin\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\zAdmin\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\less\fa-brands.less" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\less\fa-regular.less" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\less\fa-solid.less" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\less\fontawesome.less" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\less\_animated.less" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\less\_bordered-pulled.less" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\less\_core.less" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\less\_fixed-width.less" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\less\_icons.less" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\less\_larger.less" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\less\_list.less" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\less\_mixins.less" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\less\_rotated-flipped.less" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\less\_screen-reader.less" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\less\_stacked.less" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\less\_variables.less" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\scss\fa-brands.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\scss\fa-regular.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\scss\fa-solid.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\scss\fontawesome.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\scss\_animated.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\scss\_bordered-pulled.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\scss\_core.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\scss\_fixed-width.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\scss\_icons.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\scss\_larger.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\scss\_list.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\scss\_mixins.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\scss\_rotated-flipped.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\scss\_screen-reader.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\scss\_stacked.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\scss\_variables.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\zAdmin\css\icons\font-awesome\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\zAdmin\css\icons\material-design-iconic-font\fonts\Material-Design-Iconic-Font.svg" />
+    <None Include="wwwroot\zAdmin\css\icons\material-design-iconic-font\fonts\Material-Design-Iconic-Font.woff2" />
+    <None Include="wwwroot\zAdmin\css\icons\material-design-iconic-font\fonts\materialdesignicons-webfont.svg" />
+    <None Include="wwwroot\zAdmin\css\icons\material-design-iconic-font\fonts\materialdesignicons-webfont.woff2" />
+    <None Include="wwwroot\zAdmin\css\icons\themify-icons\fonts\themify.svg" />
+    <None Include="wwwroot\zAdmin\css\icons\themify-icons\ie7\ie7.js" />
+    <None Include="wwwroot\zAdmin\css\icons\themify-icons\themify-icons.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\fonts\weathericons-regular-webfont.svg" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\fonts\weathericons-regular-webfont.woff2" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-classes\classes-beaufort.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-classes\classes-day.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-classes\classes-direction.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-classes\classes-misc.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-classes\classes-moon-aliases.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-classes\classes-moon.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-classes\classes-neutral.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-classes\classes-night.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-classes\classes-time.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-classes\classes-wind-aliases.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-classes\classes-wind-degrees.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-classes\classes-wind.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-variables\variables-beaufort.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-variables\variables-day.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-variables\variables-direction.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-variables\variables-misc.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-variables\variables-moon.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-variables\variables-neutral.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-variables\variables-night.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-variables\variables-time.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\icon-variables\variables-wind-names.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\mappings\wi-forecast-io.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\mappings\wi-owm.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\mappings\wi-wmo4680.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\mappings\wi-yahoo.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\weather-icons-classes.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\weather-icons-core.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\weather-icons-variables.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\weather-icons-wind.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\weather-icons-wind.min.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\weather-icons.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\less\weather-icons.min.less" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-classes\classes-beaufort.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-classes\classes-day.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-classes\classes-direction.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-classes\classes-misc.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-classes\classes-moon-aliases.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-classes\classes-moon.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-classes\classes-neutral.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-classes\classes-night.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-classes\classes-time.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-classes\classes-wind-aliases.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-classes\classes-wind-degrees.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-classes\classes-wind.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-variables\variables-beaufort.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-variables\variables-day.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-variables\variables-direction.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-variables\variables-misc.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-variables\variables-moon.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-variables\variables-neutral.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-variables\variables-night.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-variables\variables-time.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\icon-variables\variables-wind-names.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\mappings\wi-forecast-io.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\mappings\wi-owm.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\mappings\wi-wmo4680.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\mappings\wi-yahoo.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\weather-icons-classes.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\weather-icons-core.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\weather-icons-variables.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\weather-icons-wind.min.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\weather-icons-wind.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\weather-icons.min.scss" />
+    <None Include="wwwroot\zAdmin\css\icons\weather-icons\sass\weather-icons.scss" />
+    <None Include="wwwroot\zAdmin\js\app-style-switcher.js" />
+    <None Include="wwwroot\zAdmin\js\custom.js" />
+    <None Include="wwwroot\zAdmin\js\pages\dashboards\dashboard1.js" />
+    <None Include="wwwroot\zAdmin\js\sidebarmenu.js" />
+    <None Include="wwwroot\zAdmin\js\sweetalert.js" />
+    <None Include="wwwroot\zAdmin\js\waves.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\chartist-plugin-tooltips\dist\chartist-plugin-tooltip.min.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\chartist\dist\chartist.min.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\counterup\jquery.counterup.min.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\gmaps.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\gmaps.min.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\gmaps.min.js.map" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\jquery.gmaps.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\lib\gmaps.controls.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\lib\gmaps.core.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\lib\gmaps.events.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\lib\gmaps.geofences.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\lib\gmaps.geometry.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\lib\gmaps.layers.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\lib\gmaps.map_types.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\lib\gmaps.markers.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\lib\gmaps.native_extensions.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\lib\gmaps.overlays.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\lib\gmaps.routes.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\lib\gmaps.static.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\lib\gmaps.streetview.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\lib\gmaps.styles.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\gmaps\lib\gmaps.utils.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\jquery-sparkline\jquery.charts-sparkline.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\jquery-sparkline\jquery.sparkline.min.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\jquery\dist\core.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\jquery\dist\jquery.slim.min.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\perfect-scrollbar\dist\js\perfect-scrollbar.jquery.min.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\perfect-scrollbar\dist\js\perfect-scrollbar.min.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\perfect-scrollbar\dist\perfect-scrollbar.common.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\perfect-scrollbar\dist\perfect-scrollbar.esm.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\perfect-scrollbar\dist\perfect-scrollbar.jquery.min.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\perfect-scrollbar\dist\perfect-scrollbar.min.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\popper.js\dist\esm\popper-utils.min.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\popper.js\dist\esm\popper.min.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\popper.js\dist\popper-utils.min.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\popper.js\dist\popper.min.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\popper.js\dist\umd\popper-utils.min.js" />
+    <None Include="wwwroot\zAdmin\plugins\bower\popper.js\dist\umd\popper.min.js" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\bootstrap-grid.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\bootstrap-reboot.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\bootstrap.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_alert.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_background-variant.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_badge.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_border-radius.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_box-shadow.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_breakpoints.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_buttons.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_caret.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_clearfix.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_deprecate.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_float.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_forms.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_gradients.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_grid-framework.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_grid.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_hover.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_image.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_list-group.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_lists.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_nav-divider.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_pagination.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_reset-text.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_resize.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_screen-reader.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_size.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_table-row.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_text-emphasis.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_text-hide.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_text-truncate.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_transition.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\mixins\_visibility.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\prepros-6.config" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_align.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_background.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_borders.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_clearfix.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_display.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_embed.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_flex.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_float.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_interactions.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_overflow.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_position.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_screenreaders.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_shadows.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_sizing.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_spacing.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_stretched-link.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_text.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\utilities\_visibility.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\vendor\_rfs.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_alert.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_badge.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_breadcrumb.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_button-group.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_buttons.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_card.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_carousel.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_close.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_code.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_custom-forms.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_dropdown.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_forms.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_functions.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_grid.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_images.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_input-group.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_jumbotron.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_list-group.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_media.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_mixins.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_modal.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_nav.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_navbar.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_pagination.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_popover.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_print.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_progress.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_reboot.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_root.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_spinners.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_tables.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_toasts.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_tooltip.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_transitions.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_type.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_utilities.scss" />
+    <None Include="wwwroot\zAdmin\scss\bootstrap\_variables.scss" />
+    <None Include="wwwroot\zAdmin\scss\components.scss" />
+    <None Include="wwwroot\zAdmin\scss\core\animation\animation.scss" />
+    <None Include="wwwroot\zAdmin\scss\core\breadcrumb\breadcrumb.scss" />
+    <None Include="wwwroot\zAdmin\scss\core\buttons\buttons.scss" />
+    <None Include="wwwroot\zAdmin\scss\core\core.scss" />
+    <None Include="wwwroot\zAdmin\scss\core\extra\extra.scss" />
+    <None Include="wwwroot\zAdmin\scss\core\layout\layout.scss" />
+    <None Include="wwwroot\zAdmin\scss\core\loader\spinner.scss" />
+    <None Include="wwwroot\zAdmin\scss\core\scafholdings\scafholding.scss" />
+    <None Include="wwwroot\zAdmin\scss\core\sidebar\sidebar.scss" />
+    <None Include="wwwroot\zAdmin\scss\core\topbar\header.scss" />
+    <None Include="wwwroot\zAdmin\scss\core\topbar\notify.scss" />
+    <None Include="wwwroot\zAdmin\scss\core\wave-effects\wave-effects.scss" />
+    <None Include="wwwroot\zAdmin\scss\custom.scss" />
+    <None Include="wwwroot\zAdmin\scss\mixins\padding-margin.scss" />
+    <None Include="wwwroot\zAdmin\scss\prepros-6.config" />
+    <None Include="wwwroot\zAdmin\scss\responsive.scss" />
+    <None Include="wwwroot\zAdmin\scss\style.scss" />
+    <None Include="wwwroot\zAdmin\scss\theme-colors\theme-colors.scss" />
+    <None Include="wwwroot\zAdmin\scss\variable.scss" />
+    <None Include="wwwroot\zAdmin\scss\widgets\comments.scss" />
+    <None Include="wwwroot\zAdmin\scss\widgets\feeds.scss" />
+    <None Include="wwwroot\zAdmin\scss\widgets\profile.scss" />
+    <None Include="wwwroot\zAdmin\scss\widgets\steamline.scss" />
+    <None Include="wwwroot\zAdmin\scss\widgets\widgets.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="2.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

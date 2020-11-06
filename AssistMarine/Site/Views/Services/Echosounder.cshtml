@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewData["Title"] = "Echosounder Service";
+}
+@section metas
+{
+    <meta name="description" content="We are at your service with our Echosounder services and the best brands.">
+    <meta name="keywords" content="echosounder">
+}
+<section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+
+        <ol>
+            <li><a asp-action="Services" asp-controller="Home" title="Echosounder">Services</a></li>
+            <li>@ViewData["Title"]</li>
+        </ol>
+
+
+    </div>
+</section><!-- End Breadcrumbs -->
+
+<section id="portfolio" class="portfolio">
+    <div class="container">
+
+        <div class="section-title">
+            <span>ECHOSOUNDER</span>
+            <h1>ECHOSOUNDER</h1>
+        </div>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="150">
+
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="~/img/echosounder/@item.Image" class="img-fluid" alt="" style="border: 1px solid rgba(255, 0, 0, .1)" ;>
+                    <div class="portfolio-info">
+                        <a href="~/img/echosounder/@item.Image" data-gall="portfolioGallery" class="venobox preview-link" title="Echosounder" alt="Echosounder"><i class="bx bx-expand"></i></a>
+                        <h3 style="color:darkred; font-size:22px;"> @item.ProductName </h3>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+

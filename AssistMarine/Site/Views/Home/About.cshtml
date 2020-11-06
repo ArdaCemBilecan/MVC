@@ -1,0 +1,200 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+@section metas
+{
+
+}
+<section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+
+        <ol>
+            <li><a asp-action="Index" title="Home">Home</a></li>
+            <li>@ViewData["Title"]</li>
+        </ol>
+        <h1>About</h1>
+
+    </div>
+</section><!-- End Breadcrumbs -->
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+                @*<img src="~/img/about.jpg" class="img-fluid" alt="">*@
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+                <h3>As Assist Marine, </h3>
+                <p class="font-italic">
+                    we provide 24/7 service for the maintenance and repair of navigation and communication systems on the marine platform.
+                    In the best brands; we maintain and repair
+                </p>
+                <ul>
+                    <li>
+                        <i class="icofont-check-circled"></i>
+                        <a asp-action="Radar" asp-controller="Services" title="Radar">RADAR, </a>
+                        <a asp-action="Gyro" asp-controller="Services" title="Gyro">GYRO, </a>
+                        <a asp-action="Ecdis" asp-controller="Services" title="Ecdis">ECDIS, </a>
+                        <a asp-action="Ais" asp-controller="Services" title="Ais">AIS, </a>
+                        <a asp-action="Speedlog" asp-controller="Services" title="Speed Log">SPEED LOG, </a>
+                        <a asp-action="Echosounder" asp-controller="Services" title="Echosounder">ECHOSOUNDER, </a>
+                        <a asp-action="Gps" asp-controller="Services" title="Gps">GPS / GPS COMPASS, </a>
+                        <a asp-action="Vdr" asp-controller="Services" title="Vdr">VDR, </a>
+                        <a asp-action="Autopilot" asp-controller="Services" title="Autopilot">AUTOPILOT, </a>
+                        <a asp-action="Vhf_Mf_Hf" asp-controller="Services" title="VHF & MF-HF">VHF & MF-HF, </a>
+                        <a asp-action="Inmarsat" asp-controller="Services" title="Inmarsat">INMARSAT, </a>
+                        <a asp-action="SatelliteSystem" asp-controller="Services" title="Satellite System">SATELLITE, </a>
+                        <a asp-action="Anemometer" asp-controller="Services" title="Anemometer">ANEMOMETER, </a>
+                        <a asp-action="Navtex" asp-controller="Services" title="Navtex">NAVTEX, </a>
+                        and
+                        <a asp-action="Bnwas" asp-controller="Services" title="Bnwas">BNWAS </a>
+                        devices and provide spare parts.
+                    </li>
+                </ul>
+                <p>
+                    As Assist Marine, in order to provide quality service, we employ a team of highly qualified personnel in the field of marine electronics.
+                    In order to In order to provide affordable and quality services to our customers,
+                    it is our mission to support our customers wherever and under all conditions.
+                    Our main goal is to provide and successful and timely service.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section><!-- End About Section -->
+<!-- ======= Why Us Section ======= -->
+<section id="why-us" class="why-us">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-4" data-aos="fade-up">
+                <div class="box">
+                    <span>Services</span>
+                    <div class="owl-carousel portfolio-details-carousel owl-loaded owl-drag">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage" style="transform: translate3d(-2220px, 0px, 0px); transition: all 0.25s ease 0s; width: 7770px;">
+                                <div class="owl-item" style="width: 1110px;">
+                                    <img src="~/img/gallery/14.jpg" class="img-fluid" alt="" style="height:239px;">
+                                </div>
+                                <div class="owl-item" style="width: 1110px;">
+                                    <img src="~/img/gallery/11.jpg" class="img-fluid" alt="" style="height:239px;">
+                                </div>
+                                <div class="owl-item" style="width: 1110px;">
+                                    <img src="~/img/gallery/1.jpg" class="img-fluid" alt="" style="height:239px;">
+                                </div>
+                                <div class="owl-item" style="width: 1110px;">
+                                    <img src="~/img/gallery/32.jpg" class="img-fluid" alt="" style="height:239px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a asp-action="Services" class="buton" title="Services">Services</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
+                <div class="box">
+                    <span>Gallery</span>
+                    <div class="owl-carousel portfolio-details-carousel owl-loaded owl-drag">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage" style="transform: translate3d(-2220px, 0px, 0px); transition: all 0.25s ease 0s; width: 7770px;">
+                                <div class="owl-item" style="width: 1110px;">
+                                    <img src="~/category/ais.jpg" class="img-fluid" alt="" style="height:239px;">
+                                </div>
+                                <div class="owl-item" style="width: 1110px;">
+                                    <img src="~/category/navtex.jpg" class="img-fluid" alt="" style="height:239px;">
+                                </div>
+                                <div class="owl-item" style="width: 1110px;">
+                                    <img src="~/category/vhf.jpg" class="img-fluid" alt="" style="height:239px;">
+                                </div>
+                                <div class="owl-item" style="width: 1110px;">
+                                    <img src="~/category/gps.jpg" class="img-fluid" alt="" style="height:239px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a asp-action="Gallery" class="buton" title="Gallery">Gallery</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                <div class="box">
+                    <span>Certificate</span>
+                    <div class="owl-carousel portfolio-details-carousel owl-loaded owl-drag">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage" style="transform: translate3d(-2220px, 0px, 0px); transition: all 0.25s ease 0s; width: 7770px;">
+                                <div class="owl-item" style="width: 1110px;">
+                                    <img src="~/img/certificate/c8.jpg" class="img-fluid" alt="" style="height:239px;">
+                                </div>
+                                <div class="owl-item" style="width: 1110px;">
+                                    <img src="~/img/certificate/c1.jpg" class="img-fluid" alt="" style="height:239px;">
+                                </div>
+                                <div class="owl-item" style="width: 1110px;">
+                                    <img src="~/img/certificate/c2.jpg" class="img-fluid" alt="" style="height:239px;">
+                                </div>
+                                <div class="owl-item" style="width: 1110px;">
+                                    <img src="~/img/certificate/c7.jpg" class="img-fluid" alt="" style="height:239px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a asp-action="Certificate" class="buton" title="Certificate">Certificate</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End Why Us Section -->
+<!-- ======= Clients Section ======= -->
+<section id="clients" class="clients">
+    <div class="container" data-aos="zoom-in">
+
+        <div class="row d-flex align-items-center">
+
+            <div class="col-lg-3 col-md-4 col-6">
+                <img src="~/Partner/huay.png" class="img-fluid" alt="" title="Huayang">
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+                <img src="~/Partner/jrc.png" class="img-fluid" alt="" title="JRC">
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+                <img src="~/Partner/kelvin.png" class="img-fluid" alt="" title="Kelvin Hughes">
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+                <img src="~/Partner/kvh.png" class="img-fluid" alt="" title="KVH">
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+                <img src="~/Partner/nsltd.png" class="img-fluid" alt="" title="Navitron System">
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+                <img src="~/Partner/seiwa.png" class="img-fluid" alt="" title="Seiwa">
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+                <img src="~/Partner/simrad.png" class="img-fluid" alt="" title="Simrad">
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+                <img src="~/Partner/yoko.png" class="img-fluid" alt="" title="Yokogawa">
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End Clients Section -->

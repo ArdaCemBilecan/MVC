@@ -1,0 +1,114 @@
+﻿@model Site.Models.Customer
+@{
+    ViewData["Title"] = "Support";
+}
+@section metas
+{
+
+}
+<section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+
+        <ol>
+            <li><a asp-action="Index" title="Home">Home</a></li>
+            <li>@ViewData["Title"]</li>
+        </ol>
+        <h1>Support</h1>
+
+    </div>
+</section><!-- End Breadcrumbs -->
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+    <div class="container">
+
+        <div class="section-title">
+            <span>Contact</span>
+            <h2>Contact</h2>
+            <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+            <div class="col-lg-6">
+                <div class="info-box mb-4">
+                    <i class="bx bx-map"></i>
+                    <h3>Our Address</h3>
+                    <p>
+                        Guzel Yali Mh. Istasyon Caddesi Bekci Sk. No:7 D:8 <br>
+                        Pendik - ISTANBUL / TURKIYE
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="info-box  mb-4">
+                    <i class="bx bx-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p> info@assistmarine.com</p>
+                    <br />
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="info-box  mb-4">
+                    <i class="bx bx-phone-call"></i>
+                    <h3>Call Us</h3>
+                    <p>Phone: +90 216 504 75 79</p>
+                    <p>GSM: +90 544 315 04 78</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" data-aos="fade-up">
+
+            <div class="col-lg-6 ">
+                <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.696223837592!2d29.276472915658747!3d40.85659283669357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caddccade412e3%3A0x79efa7d8a91f658c!2sAssist%20Marine!5e0!3m2!1str!2str!4v1603049636663!5m2!1str!2str" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+            </div>
+
+
+            <div class="col-lg-6">
+                <form asp-action="Support" method="post" role="form" class="php-email-form" name="myForm">
+                    <div class="form-row">
+                        <div class="col-md-6 form-group">
+                            <input type="text" asp-for="name" name="name" class="form-control" placeholder="Your Name" data-rule="minlen:3" data-msg="Please enter at least 3 chars" />
+                            <div class="validate"></div>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <input type="email" class="form-control" asp-for="email" name="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validate"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" asp-for="subject" name="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validate"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" asp-for="message" name="message" maxlength="350" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                        <div class="validate"></div>
+                        <div id="charactersRemaining">350 Character Remaining..</div>
+                        <script>
+                            var el;
+
+                            function countCharacters(e) {
+                                var textEntered, countRemaining, counter;
+                                textEntered = document.getElementById('message').value;
+                                counter = (350 - (textEntered.length));
+                                countRemaining = document.getElementById('charactersRemaining');
+                                countRemaining.textContent = counter + ' Character Remaining..';
+                            }
+                            el = document.getElementById('message');
+                            el.addEventListener('keyup', countCharacters, false);
+                        </script>
+
+                    </div>
+                    <div class="mb-3">
+                        <div class="loading">Loading</div>
+                    </div>
+                    <div class="text-center"><button id="gndr" type="submit">Send Message</button></div>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End Contact Section -->

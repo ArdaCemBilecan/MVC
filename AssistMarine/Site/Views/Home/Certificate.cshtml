@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewData["Title"] = "Certificate";
+}
+@section metas
+{
+    
+}
+<section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+
+        <ol>
+            <li><a asp-action="Index" title="Home">Home</a></li>
+            <li>@ViewData["Title"]</li>
+        </ol>
+        <h1>Certificate</h1>
+
+    </div>
+</section><!-- End Breadcrumbs -->
+<!-- ======= Services Section ======= -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+
+        <div class="section-title">
+            <span>Certificate</span>
+            <h2>Certificate</h2>
+            <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="150">
+
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+                    <a href="~/img/certificate/@item.Image" data-gall="portfolioGallery" class="venobox preview-link" title="Certificate">
+                        <img src="~/img/certificate/@item.Image" class="img-fluid" alt="">
+                    </a>
+                </div>
+            }
+        </div>
+
+    </div>
+</section><!-- End Services Section -->

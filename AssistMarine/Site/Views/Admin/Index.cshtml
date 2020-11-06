@@ -1,0 +1,43 @@
+﻿@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Admin Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="none" />
+    <link href="~/css/admin.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="wrapper fadeInDown">
+        @using (Html.BeginForm("Index", "Admin", FormMethod.Post))
+        {
+
+        <div id="formContent">
+            <!-- Login Form -->
+            <div class="logo mb-3">
+                <div class="col-md-12 text-center">
+                    <h1 style="font-family: 'Kaushan Script', cursive;">Assist Marine Login</h1>
+                </div>
+            </div>
+            <form>
+                <input type="text" id="login" class="fadeIn second" name="id" placeholder="User Id">
+                <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password">
+                <input type="submit" class="fadeIn fourth" value="Log In">
+            </form>
+        </div>
+
+        }
+    </div>
+
+</body>
+</html>

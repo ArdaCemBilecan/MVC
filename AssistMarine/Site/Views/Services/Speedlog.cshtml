@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewData["Title"] = "Speed Log Service";
+}
+@section metas
+{
+    <meta name="description" content="Technical service and parts support for Speed log products are here.">
+    <meta name="keywords" content="speed log">
+}
+<section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+
+        <ol>
+            <li><a asp-action="Services" asp-controller="Home" title="Speed Log">Services</a></li>
+            <li>@ViewData["Title"]</li>
+        </ol>
+
+    </div>
+</section><!-- End Breadcrumbs -->
+
+<section id="portfolio" class="portfolio">
+    <div class="container">
+
+        <div class="section-title">
+            <span>SPEED LOG</span>
+            <h1>SPEED LOG</h1>
+        </div>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="150">
+
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="~/img/speedlog/@item.Image" class="img-fluid" alt="" style="border: 1px solid rgba(255, 0, 0, .1)" ;>
+                    <div class="portfolio-info">
+                        <a href="~/img/speedlog/@item.Image" data-gall="portfolioGallery" class="venobox preview-link" title="Speedlog" alt="Speedlog"><i class="bx bx-expand"></i></a>
+                        <h3 style="color:darkred; font-size:22px;"> @item.ProductName </h3>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

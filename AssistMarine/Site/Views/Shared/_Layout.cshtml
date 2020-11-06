@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    @RenderSection("metas")
+    <title>@ViewData["Title"] - AssistMarine</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="~/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="~/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="~/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="~/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet" />
+
+</head>
+<body>
+    <!-- ======= Top Bar ======= -->
+    <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top ">
+        <div class="container d-flex">
+            <div class="contact-info mr-auto">
+                <i class="icofont-envelope"></i> <a href="info@assistmarine.com">info@assistmarine.com</a>
+                <i class="icofont-phone"></i> +90 216 504 75 79
+            </div>
+        </div>
+    </div>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top ">
+        <div class="container d-flex align-items-center">
+
+            <h1 class="logo mr-auto"><a asp-action="Index">AssistMarine</a></h1>
+
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li class="active"><a asp-action="Index" asp-controller="Home" title="Home">Home</a></li>
+                    <li><a asp-action="About" asp-controller="Home" title="About">About</a></li>
+                    <li class="drop-down">
+                        <a asp-action="Services" asp-controller="Home" title="Services">Services</a>
+                        <ul>
+                            <li><a asp-action="Ais" asp-controller="Services" title="Ais">Ais</a></li>
+                            <li><a asp-action="Anemometer" asp-controller="Services" title="Anemometer">Anemometer</a></li>
+                            <li><a asp-action="Autopilot" asp-controller="Services" title="Autopilot">Autopilot</a></li>
+                            <li><a asp-action="Bnwas" asp-controller="Services" title="Bnwas">Bnwas</a></li>
+                            <li><a asp-action="Ecdis" asp-controller="Services" title="Ecdis">Ecdis</a></li>
+                            <li><a asp-action="Echosounder" asp-controller="Services" title="Echosounder">Echosounder</a></li>
+                            <li><a asp-action="Gps" asp-controller="Services" title="Gps">Gps</a></li>
+                            <li><a asp-action="Gyro" asp-controller="Services" title="Gyro">Gyro</a></li>
+                            <li><a asp-action="Inmarsat" asp-controller="Services" title="Inmarsat">Inmarsat</a></li>
+                            <li><a asp-action="Navtex" asp-controller="Services" title="Navtex">Navtex</a></li>
+                            <li><a asp-action="Radar" asp-controller="Services" title="Radar">Radar</a></li>
+                            <li><a asp-action="SatelliteSystem" asp-controller="Services" title="Satellite System">Satellite System</a></li>
+                            <li><a asp-action="SoundReceptionSystem" asp-controller="Services" title="Sound Reception System">Sound Reception System</a></li>
+                            <li><a asp-action="Speedlog" asp-controller="Services" title="Speed Log">Speed Log</a></li>
+                            <li><a asp-action="Vdr" asp-controller="Services" title="Vdr">Vdr</a></li>
+                            <li><a asp-action="Vhf_Mf_Hf" asp-controller="Services" title="Vhf & Mf-Hf">Vhf & Mf-Hf</a></li>
+                        </ul>
+                    </li>
+                    <li><a asp-action="Gallery" asp-controller="Home" title="Gallery">Gallery</a></li>
+                    <li><a asp-action="Certificate" asp-controller="Home" title="Certificate">Certificate</a></li>
+                    <li><a asp-action="Support" asp-controller="Home" title="Support">Support</a></li>
+                </ul>
+            </nav><!-- .nav-menu -->
+
+        </div>
+    </header><!-- End Header -->
+    <main id="main">
+        @RenderBody()
+    </main>
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-info">
+                            <h3>AssistMarine</h3>
+                            <p>
+                                Guzel Yali Mh. Istasyon Caddesi <br>
+                                Bekci Sk. No:7 D:8 <br>
+                                Pendik - ISTANBUL / TURKIYE<br><br />
+                                <strong>Phone:</strong> +90 216 504 75 79<br>
+                                <strong>GSM:</strong>+90 544 315 04 78<br />
+                                <strong>Email:</strong> info@assistmarine.com<br>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6 footer-links">
+
+                            <h3>Useful Links</h3>
+                            <ul>
+                                <li><i class="bx bx-chevron-right"></i><a asp-action="Index" asp-controller="Home" title="Home">Home</a></li>
+                                <li><i class="bx bx-chevron-right"></i><a asp-action="About" asp-controller="Home" title="About">About</a></li>
+                                <li><i class="bx bx-chevron-right"></i><a asp-action="Services" asp-controller="Home" title="Services">Services</a></li>
+                                <li><i class="bx bx-chevron-right"></i><a asp-action="Gallery" asp-controller="Home" title="Gallery">Gallery</a></li>
+                                <li><i class="bx bx-chevron-right"></i><a asp-action="Certificate" asp-controller="Home" title="Certificate">Certificate</a></li>
+                                <li><i class="bx bx-chevron-right"></i><a asp-action="Support" asp-controller="Home" title="Support">Support</a></li>
+                            </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Assist</span><span style="color:#008080">Marine</span></strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top" title="Go Up!"><i class="icofont-simple-up"></i></a>
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="~/vendor/jquery/jquery.min.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="~/vendor/php-email-form/validate.js"></script>
+    <script src="~/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="~/vendor/venobox/venobox.min.js"></script>
+    <script src="~/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="~/vendor/aos/aos.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- Main JS File -->
+    <script src="~/js/main.js"></script>
+
+</body>
+</html>

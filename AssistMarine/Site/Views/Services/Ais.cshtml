@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "AIS Service";
+}
+@section metas
+{
+    <meta name="description" content="Top quality AIS services at the best brands are just a click away.">
+    <meta name="keywords" content="Ais">
+}
+<!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+
+        <ol>
+            <li><a asp-action="Services" asp-controller="Home" title="AIS">Services</a></li>
+            <li>@ViewData["Title"]</li>
+        </ol>
+
+
+    </div>
+</section><!-- End Breadcrumbs -->
+
+<section id="portfolio" class="portfolio">
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>AIS</span>
+            <h1>AIS</h1>
+            <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        </div>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="150">
+
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="~/img/ais/@item.Image" class="img-fluid" alt="" style="border: 1px solid rgba(255, 0, 0, .1)">
+                    <div class="portfolio-info">
+                        <a href="~/img/ais/@item.Image" data-gall="portfolioGallery" class="venobox preview-link" title="Ais" alt="Ais"><i class="bx bx-expand"></i></a>
+                        <h3 style="color:darkred"> @item.ProductName </h3>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
