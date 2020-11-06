@@ -42,7 +42,7 @@ namespace Site.Controllers
             var id = HttpContext.Session.GetString("Id");
             var psw = HttpContext.Session.GetString("Password");
 
-            if (id == "admin" && psw == "12345")
+            if (id == "admin" && psw == "admin")
             {
                 if (cId == 0)
                 {
@@ -170,7 +170,7 @@ namespace Site.Controllers
                 await product.ImageFile.CopyToAsync(fileStream);
             }
             SqlConnection connection = new SqlConnection(@"workstation id=ProductDb.mssql.somee.com;packet size=4096;user id=batu;pwd=123456Bb;data source=ProductDb.mssql.somee.com;persist security info=False;initial catalog=ProductDb");
-            // Yeni resmi veritabanýna ekliyoruz.
+            // Yeni resmi veritabanÃ½na ekliyoruz.
             if (connection.State == ConnectionState.Closed)
             {
                 connection.Open();
