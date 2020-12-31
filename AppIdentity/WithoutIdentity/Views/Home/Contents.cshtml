@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Article>
+@{
+    ViewData["Title"] = "Contents";
+}
+
+<h1>Contents</h1>
+
+<div class="container">
+    @foreach (var item in Model)
+    {
+        <h3>@item.Author</h3>
+        <br />
+        <hr />
+        <textarea style="width:400px">@item.Content</textarea>
+
+    }
+</div>
+
+
+

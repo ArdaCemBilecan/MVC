@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Article>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+   
+<h1>MAKALELER</h1>
+@ViewBag.session
+<hr />
+
+<div class="row">
+    @if (Model == null)
+    {
+        <div class="alart alert-danger">
+            <h2>MAKALENİZ BULUNMAMAKTADIR</h2>
+        </div>
+    }
+    else
+    {
+<div class="form-group">
+
+    @foreach (var item in Model)
+    {
+        <ul class="list-group list-group-horizontal-md">
+            <li class="list-group-item">@item.Author</li>
+            <a class="list-group-item" asp-action="Contents" asp-route-title="@item.Title">@item.Title</a>
+        </ul>
+    }
+
+</div>
+    }
+</div>
+
