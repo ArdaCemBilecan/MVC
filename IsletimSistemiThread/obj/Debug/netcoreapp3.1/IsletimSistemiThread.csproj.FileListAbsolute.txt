@@ -1,0 +1,13 @@
+D:\VSProjeler\CSharpKurs\IsletimSistemiThread\bin\Debug\netcoreapp3.1\IsletimSistemiThread.exe
+D:\VSProjeler\CSharpKurs\IsletimSistemiThread\bin\Debug\netcoreapp3.1\IsletimSistemiThread.deps.json
+D:\VSProjeler\CSharpKurs\IsletimSistemiThread\bin\Debug\netcoreapp3.1\IsletimSistemiThread.runtimeconfig.json
+D:\VSProjeler\CSharpKurs\IsletimSistemiThread\bin\Debug\netcoreapp3.1\IsletimSistemiThread.runtimeconfig.dev.json
+D:\VSProjeler\CSharpKurs\IsletimSistemiThread\bin\Debug\netcoreapp3.1\IsletimSistemiThread.dll
+D:\VSProjeler\CSharpKurs\IsletimSistemiThread\bin\Debug\netcoreapp3.1\IsletimSistemiThread.pdb
+D:\VSProjeler\CSharpKurs\IsletimSistemiThread\obj\Debug\netcoreapp3.1\IsletimSistemiThread.csprojAssemblyReference.cache
+D:\VSProjeler\CSharpKurs\IsletimSistemiThread\obj\Debug\netcoreapp3.1\IsletimSistemiThread.AssemblyInfoInputs.cache
+D:\VSProjeler\CSharpKurs\IsletimSistemiThread\obj\Debug\netcoreapp3.1\IsletimSistemiThread.AssemblyInfo.cs
+D:\VSProjeler\CSharpKurs\IsletimSistemiThread\obj\Debug\netcoreapp3.1\IsletimSistemiThread.csproj.CoreCompileInputs.cache
+D:\VSProjeler\CSharpKurs\IsletimSistemiThread\obj\Debug\netcoreapp3.1\IsletimSistemiThread.dll
+D:\VSProjeler\CSharpKurs\IsletimSistemiThread\obj\Debug\netcoreapp3.1\IsletimSistemiThread.pdb
+D:\VSProjeler\CSharpKurs\IsletimSistemiThread\obj\Debug\netcoreapp3.1\IsletimSistemiThread.genruntimeconfig.cache

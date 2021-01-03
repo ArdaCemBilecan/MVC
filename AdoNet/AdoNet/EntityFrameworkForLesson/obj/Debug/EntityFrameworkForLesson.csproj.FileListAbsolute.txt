@@ -1,0 +1,15 @@
+D:\VSProjeler\AdoNet\AdoNet\EntityFrameworkForLesson\bin\Debug\EntityFrameworkForLesson.exe.config
+D:\VSProjeler\AdoNet\AdoNet\EntityFrameworkForLesson\bin\Debug\EntityFrameworkForLesson.exe
+D:\VSProjeler\AdoNet\AdoNet\EntityFrameworkForLesson\bin\Debug\EntityFrameworkForLesson.pdb
+D:\VSProjeler\AdoNet\AdoNet\EntityFrameworkForLesson\bin\Debug\EntityFramework.dll
+D:\VSProjeler\AdoNet\AdoNet\EntityFrameworkForLesson\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjeler\AdoNet\AdoNet\EntityFrameworkForLesson\bin\Debug\EntityFramework.xml
+D:\VSProjeler\AdoNet\AdoNet\EntityFrameworkForLesson\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSProjeler\AdoNet\AdoNet\EntityFrameworkForLesson\obj\Debug\EntityFrameworkForLesson.csprojAssemblyReference.cache
+D:\VSProjeler\AdoNet\AdoNet\EntityFrameworkForLesson\obj\Debug\EntityFrameworkForLesson.Form1.resources
+D:\VSProjeler\AdoNet\AdoNet\EntityFrameworkForLesson\obj\Debug\EntityFrameworkForLesson.Properties.Resources.resources
+D:\VSProjeler\AdoNet\AdoNet\EntityFrameworkForLesson\obj\Debug\EntityFrameworkForLesson.csproj.GenerateResource.cache
+D:\VSProjeler\AdoNet\AdoNet\EntityFrameworkForLesson\obj\Debug\EntityFrameworkForLesson.csproj.CoreCompileInputs.cache
+D:\VSProjeler\AdoNet\AdoNet\EntityFrameworkForLesson\obj\Debug\EntityFrameworkForLesson.csproj.CopyComplete
+D:\VSProjeler\AdoNet\AdoNet\EntityFrameworkForLesson\obj\Debug\EntityFrameworkForLesson.exe
+D:\VSProjeler\AdoNet\AdoNet\EntityFrameworkForLesson\obj\Debug\EntityFrameworkForLesson.pdb

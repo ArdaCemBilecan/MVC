@@ -1,0 +1,13 @@
+D:\VSProjeler\CSharpKurs\OkunanSatirSil\bin\Debug\netcoreapp3.1\OkunanSatirSil.exe
+D:\VSProjeler\CSharpKurs\OkunanSatirSil\bin\Debug\netcoreapp3.1\OkunanSatirSil.deps.json
+D:\VSProjeler\CSharpKurs\OkunanSatirSil\bin\Debug\netcoreapp3.1\OkunanSatirSil.runtimeconfig.json
+D:\VSProjeler\CSharpKurs\OkunanSatirSil\bin\Debug\netcoreapp3.1\OkunanSatirSil.runtimeconfig.dev.json
+D:\VSProjeler\CSharpKurs\OkunanSatirSil\bin\Debug\netcoreapp3.1\OkunanSatirSil.dll
+D:\VSProjeler\CSharpKurs\OkunanSatirSil\bin\Debug\netcoreapp3.1\OkunanSatirSil.pdb
+D:\VSProjeler\CSharpKurs\OkunanSatirSil\obj\Debug\netcoreapp3.1\OkunanSatirSil.csprojAssemblyReference.cache
+D:\VSProjeler\CSharpKurs\OkunanSatirSil\obj\Debug\netcoreapp3.1\OkunanSatirSil.AssemblyInfoInputs.cache
+D:\VSProjeler\CSharpKurs\OkunanSatirSil\obj\Debug\netcoreapp3.1\OkunanSatirSil.AssemblyInfo.cs
+D:\VSProjeler\CSharpKurs\OkunanSatirSil\obj\Debug\netcoreapp3.1\OkunanSatirSil.csproj.CoreCompileInputs.cache
+D:\VSProjeler\CSharpKurs\OkunanSatirSil\obj\Debug\netcoreapp3.1\OkunanSatirSil.dll
+D:\VSProjeler\CSharpKurs\OkunanSatirSil\obj\Debug\netcoreapp3.1\OkunanSatirSil.pdb
+D:\VSProjeler\CSharpKurs\OkunanSatirSil\obj\Debug\netcoreapp3.1\OkunanSatirSil.genruntimeconfig.cache

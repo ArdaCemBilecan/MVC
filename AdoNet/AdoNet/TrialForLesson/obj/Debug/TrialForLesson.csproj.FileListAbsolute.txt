@@ -1,0 +1,10 @@
+D:\VSProjeler\AdoNet\AdoNet\TrialForLesson\obj\Debug\TrialForLesson.csprojAssemblyReference.cache
+D:\VSProjeler\AdoNet\AdoNet\TrialForLesson\obj\Debug\TrialForLesson.Form1.resources
+D:\VSProjeler\AdoNet\AdoNet\TrialForLesson\obj\Debug\TrialForLesson.Properties.Resources.resources
+D:\VSProjeler\AdoNet\AdoNet\TrialForLesson\obj\Debug\TrialForLesson.csproj.GenerateResource.cache
+D:\VSProjeler\AdoNet\AdoNet\TrialForLesson\obj\Debug\TrialForLesson.csproj.CoreCompileInputs.cache
+D:\VSProjeler\AdoNet\AdoNet\TrialForLesson\bin\Debug\TrialForLesson.exe.config
+D:\VSProjeler\AdoNet\AdoNet\TrialForLesson\bin\Debug\TrialForLesson.exe
+D:\VSProjeler\AdoNet\AdoNet\TrialForLesson\bin\Debug\TrialForLesson.pdb
+D:\VSProjeler\AdoNet\AdoNet\TrialForLesson\obj\Debug\TrialForLesson.exe
+D:\VSProjeler\AdoNet\AdoNet\TrialForLesson\obj\Debug\TrialForLesson.pdb

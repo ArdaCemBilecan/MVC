@@ -1,0 +1,13 @@
+D:\VSProjeler\CSharpKurs\OperatorOverLoading\bin\Debug\netcoreapp3.1\OperatorOverLoading.exe
+D:\VSProjeler\CSharpKurs\OperatorOverLoading\bin\Debug\netcoreapp3.1\OperatorOverLoading.deps.json
+D:\VSProjeler\CSharpKurs\OperatorOverLoading\bin\Debug\netcoreapp3.1\OperatorOverLoading.runtimeconfig.json
+D:\VSProjeler\CSharpKurs\OperatorOverLoading\bin\Debug\netcoreapp3.1\OperatorOverLoading.runtimeconfig.dev.json
+D:\VSProjeler\CSharpKurs\OperatorOverLoading\bin\Debug\netcoreapp3.1\OperatorOverLoading.dll
+D:\VSProjeler\CSharpKurs\OperatorOverLoading\bin\Debug\netcoreapp3.1\OperatorOverLoading.pdb
+D:\VSProjeler\CSharpKurs\OperatorOverLoading\obj\Debug\netcoreapp3.1\OperatorOverLoading.csprojAssemblyReference.cache
+D:\VSProjeler\CSharpKurs\OperatorOverLoading\obj\Debug\netcoreapp3.1\OperatorOverLoading.AssemblyInfoInputs.cache
+D:\VSProjeler\CSharpKurs\OperatorOverLoading\obj\Debug\netcoreapp3.1\OperatorOverLoading.AssemblyInfo.cs
+D:\VSProjeler\CSharpKurs\OperatorOverLoading\obj\Debug\netcoreapp3.1\OperatorOverLoading.csproj.CoreCompileInputs.cache
+D:\VSProjeler\CSharpKurs\OperatorOverLoading\obj\Debug\netcoreapp3.1\OperatorOverLoading.dll
+D:\VSProjeler\CSharpKurs\OperatorOverLoading\obj\Debug\netcoreapp3.1\OperatorOverLoading.pdb
+D:\VSProjeler\CSharpKurs\OperatorOverLoading\obj\Debug\netcoreapp3.1\OperatorOverLoading.genruntimeconfig.cache

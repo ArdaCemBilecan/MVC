@@ -1,0 +1,15 @@
+D:\VSProjeler\AdoNet\AdoNet\DenemeEntityFramework\bin\Debug\DenemeEntityFramework.exe.config
+D:\VSProjeler\AdoNet\AdoNet\DenemeEntityFramework\bin\Debug\DenemeEntityFramework.exe
+D:\VSProjeler\AdoNet\AdoNet\DenemeEntityFramework\bin\Debug\DenemeEntityFramework.pdb
+D:\VSProjeler\AdoNet\AdoNet\DenemeEntityFramework\bin\Debug\EntityFramework.dll
+D:\VSProjeler\AdoNet\AdoNet\DenemeEntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjeler\AdoNet\AdoNet\DenemeEntityFramework\bin\Debug\EntityFramework.xml
+D:\VSProjeler\AdoNet\AdoNet\DenemeEntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSProjeler\AdoNet\AdoNet\DenemeEntityFramework\obj\Debug\DenemeEntityFramework.csprojAssemblyReference.cache
+D:\VSProjeler\AdoNet\AdoNet\DenemeEntityFramework\obj\Debug\DenemeEntityFramework.Form1.resources
+D:\VSProjeler\AdoNet\AdoNet\DenemeEntityFramework\obj\Debug\DenemeEntityFramework.Properties.Resources.resources
+D:\VSProjeler\AdoNet\AdoNet\DenemeEntityFramework\obj\Debug\DenemeEntityFramework.csproj.GenerateResource.cache
+D:\VSProjeler\AdoNet\AdoNet\DenemeEntityFramework\obj\Debug\DenemeEntityFramework.csproj.CoreCompileInputs.cache
+D:\VSProjeler\AdoNet\AdoNet\DenemeEntityFramework\obj\Debug\DenemeEntityFramework.csproj.CopyComplete
+D:\VSProjeler\AdoNet\AdoNet\DenemeEntityFramework\obj\Debug\DenemeEntityFramework.exe
+D:\VSProjeler\AdoNet\AdoNet\DenemeEntityFramework\obj\Debug\DenemeEntityFramework.pdb
