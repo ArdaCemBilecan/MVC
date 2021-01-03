@@ -1,0 +1,107 @@
+﻿@model IEnumerable<customer>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table V03</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="~/IndexCss/images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/vendor/perfect-scrollbar/perfect-scrollbar.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/css/main.css">
+    <!--===============================================================================================-->
+</head>
+<body>
+    <div class="row">
+        <div class="container-table100">
+            <div class="table100 ver6 m-b-110">
+                <h2 style="text-decoration: none; color:white; font-weight: bold; margin-left:25px"><caption>Müşteri Tablosu</caption></h2>
+                <table data-vertable="ver6">
+
+
+                    <thead>
+                        <tr class="row100 head">
+                            <th class="column100 column1" data-column="column1">
+                                @Html.DisplayNameFor(model => model.Name)
+                            </th>
+                            <th class="column100 column2" data-column="column2">
+                                @Html.DisplayNameFor(model => model.Surname)
+                            </th>
+                            <th class="column100 column3" data-column="column3">
+                                @Html.DisplayNameFor(model => model.ComName)
+                            </th>
+                            <th class="column100 column4" data-column="column4">
+                                @Html.DisplayNameFor(model => model.CarName)
+                            </th>
+                            <th class="column100 column5" data-column="column5">
+                                @Html.DisplayNameFor(model => model.CarModel)
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr class="row100">
+                                <td class="column100 column1" data-column="column1">
+                                    @Html.DisplayFor(modelItem => item.Name)
+                                </td>
+                                <td class="column100 column2" data-column="column2">
+                                    @Html.DisplayFor(modelItem => item.Surname)
+                                </td>
+                                <td class="column100 column3" data-column="column3">
+                                    <a style="text-decoration: none; color:white; font-weight: bold;" asp-action="Company" asp-route-name="@item.ComName">@Html.DisplayFor(modelItem => item.ComName)</a>
+                                </td>
+                                <td class="column100 column4" data-column="column4">
+                                    @Html.DisplayFor(modelItem => item.CarName)
+                                </td>
+                                <td class="column100 column5" data-column="column5">
+                                    <a style="text-decoration: none; color:white; font-weight: bold;" asp-action="Car" asp-route-carModel="@item.CarModel">@Html.DisplayFor(modelItem => item.CarModel)</a>
+                                </td>
+                                <td class="column100 column6" data-column="column6">
+                                    <a style="text-decoration: none; color:white; font-weight: bold;" asp-action="Delete" asp-route-id="@item.Id">Sil</a>
+                                </td>
+                                <td class="column100 column7" data-column="column7">
+                                    <a style="text-decoration: none; color:white; font-weight: bold;" asp-action="Update" asp-route-id="@item.Id">Güncelle</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <br /> <br />
+                <a style="text-decoration: none; color:white; font-weight: bold; margin-left:20px;" asp-action="NewCustomer">Create New Customer</a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!--===============================================================================================-->
+    <script src="~/IndexCss/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/IndexCss/vendor/bootstrap/js/popper.js"></script>
+    <script src="~/IndexCss/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/IndexCss/vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/IndexCss/js/main.js"></script>
+
+</body>
+</html>

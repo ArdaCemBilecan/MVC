@@ -1,0 +1,131 @@
+﻿@model CompanyViewModel
+@{
+    ViewData["Title"] = "Company";
+}
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table V03</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="~/IndexCss/images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/vendor/perfect-scrollbar/perfect-scrollbar.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/css/main.css">
+    <!--===============================================================================================-->
+</head>
+<body>
+    <div class="row">
+        <div class="container-table100">
+            <div class="table100 ver6 m-b-4">
+                <h2 style="text-decoration: none; color:white; font-weight: bold; margin-left:1px"><caption>ŞİRKETİN GENEL TABLOSU</caption></h2>
+                <table data-vertable="ver6">
+                    <thead>
+                        <tr class="row100 head">
+                            <th class="column100 column1" data-column="column1">
+                                ŞİRKET ADI:
+                            </th>
+                            <th class="column100 column2" data-column="column2">
+                                ŞİRKET ADRESİ:
+                            </th>
+                            <th>
+
+                            </th>
+                    </thead>
+                    <tbody>
+                        <tr class="row100">
+                            <td class="column100 column1" data-column="column1">
+                                @Html.DisplayFor(model => model.Sirketler[0].CompanyName)
+                            </td>
+                            <td class="column100 column2" data-column="column2">
+                                @Html.DisplayFor(model => model.Sirketler[0].Address)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br /> <br />
+
+                <table data-vertable="ver6">
+                    <thead>
+                        <tr class="row100 head">
+                            <th class="column100 column1" data-column="column1">
+                                ARABALA MARKALARI
+                            </th>
+                            <th class="column100 column2" data-column="column2">
+                                ARABA MODELLERİ
+                            </th>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Arabalar)
+                        {
+                            <tr>
+                                <td th class="column100 column1" data-column="column1">@Html.DisplayFor(modelItem => item.CarName)</td>
+                                <td th class="column100 column2" data-column="column2">@Html.DisplayFor(modelItem => item.CarModel)</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <br /> <br />
+
+                <table data-vertable="ver6">
+                    <thead>
+                        <tr class="row100 head">
+                            <th class="column100 column1" data-column="column1">
+                                ÇALIŞAN ID
+                            </th>
+                            <th class="column100 column2" data-column="column2">
+                                ÇALIŞAN İSİM
+                            </th>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Calisanlar)
+                        {
+                            <tr>
+                                <td th class="column100 column1" data-column="column1">@Html.DisplayFor(modelItem => item.Id)</td>
+                                <td th class="column100 column2" data-column="column2">@Html.DisplayFor(modelItem => item.Name)</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+                <br /> <br />
+
+                <a style="text-decoration: none; color:white; font-weight: bold; margin-left:20px;" asp-action="Index">Back</a>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!--===============================================================================================-->
+    <script src="~/IndexCss/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/IndexCss/vendor/bootstrap/js/popper.js"></script>
+    <script src="~/IndexCss/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/IndexCss/vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/IndexCss/js/main.js"></script>
+
+</body>
+</html>

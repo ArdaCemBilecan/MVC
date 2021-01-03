@@ -1,0 +1,102 @@
+﻿@model IEnumerable<car>
+@{
+    ViewData["Title"] = "Car";
+}
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table V03</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="~/IndexCss/images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/vendor/perfect-scrollbar/perfect-scrollbar.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/IndexCss/css/main.css">
+    <!--===============================================================================================-->
+</head>
+<body>
+    <div class="row">
+        <div class="container-table100">
+            <div class="table100 ver6 m-b-4">
+                <h2 style="text-decoration: none; color:white; font-weight: bold; margin-left:1px"><caption>ARABA ÖZELLİKLERİ</caption></h2>
+                <table data-vertable="ver6">
+                    <thead>
+                        <tr class="row100 head">
+                            <th class="column100 column1" data-column="column1">
+                                ŞİRKET ADI
+                            </th>
+                            <th class="column100 column2" data-column="column2">
+                                ARABA ADI
+                            </th>
+                            <th class="column100 column3" data-column="column3">
+                                ARABA MODEL
+                            </th>
+                            <th class="column100 column4" data-column="column4">
+                                100 KM ÜCRETİ
+                            </th>
+
+                    </thead>
+                    <tbody>
+                        @foreach(var item in Model) { 
+                        <tr class="row100">
+                            <td class="column100 column1" data-column="column1">
+                                @Html.DisplayFor(model => item.ComName)
+                            </td>
+                            <td class="column100 column2" data-column="column2">
+                                @Html.DisplayFor(model => item.CarName)
+                            </td>
+                            <td class="column100 column3" data-column="column3">
+                                @Html.DisplayFor(model => item.CarModel)
+                            </td>
+                            <td class="column100 column4" data-column="column4">
+                                @Html.DisplayFor(model => item.PriceFor100Km)
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+
+                <br /> <br />
+
+                <a style="text-decoration: none; color:white; font-weight: bold; margin-left:20px;" asp-action="Index">Back</a>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!--===============================================================================================-->
+    <script src="~/IndexCss/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/IndexCss/vendor/bootstrap/js/popper.js"></script>
+    <script src="~/IndexCss/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/IndexCss/vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/IndexCss/js/main.js"></script>
+
+</body>
+</html>
+
+
