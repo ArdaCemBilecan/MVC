@@ -1,0 +1,17 @@
+D:\VSProjeler\WebAPI\WebApiDemo1\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\VSProjeler\WebAPI\WebApiDemo1\bin\Debug\netcoreapp2.1\appsettings.json
+D:\VSProjeler\WebAPI\WebApiDemo1\bin\Debug\netcoreapp2.1\WebApiDemo1.deps.json
+D:\VSProjeler\WebAPI\WebApiDemo1\bin\Debug\netcoreapp2.1\WebApiDemo1.runtimeconfig.json
+D:\VSProjeler\WebAPI\WebApiDemo1\bin\Debug\netcoreapp2.1\WebApiDemo1.runtimeconfig.dev.json
+D:\VSProjeler\WebAPI\WebApiDemo1\bin\Debug\netcoreapp2.1\WebApiDemo1.dll
+D:\VSProjeler\WebAPI\WebApiDemo1\bin\Debug\netcoreapp2.1\WebApiDemo1.pdb
+D:\VSProjeler\WebAPI\WebApiDemo1\obj\Debug\netcoreapp2.1\WebApiDemo1.csprojAssemblyReference.cache
+D:\VSProjeler\WebAPI\WebApiDemo1\obj\Debug\netcoreapp2.1\WebApiDemo1.AssemblyInfoInputs.cache
+D:\VSProjeler\WebAPI\WebApiDemo1\obj\Debug\netcoreapp2.1\WebApiDemo1.AssemblyInfo.cs
+D:\VSProjeler\WebAPI\WebApiDemo1\obj\Debug\netcoreapp2.1\WebApiDemo1.csproj.CoreCompileInputs.cache
+D:\VSProjeler\WebAPI\WebApiDemo1\obj\Debug\netcoreapp2.1\WebApiDemo1.RazorAssemblyInfo.cache
+D:\VSProjeler\WebAPI\WebApiDemo1\obj\Debug\netcoreapp2.1\WebApiDemo1.RazorAssemblyInfo.cs
+D:\VSProjeler\WebAPI\WebApiDemo1\obj\Debug\netcoreapp2.1\WebApiDemo1.RazorTargetAssemblyInfo.cache
+D:\VSProjeler\WebAPI\WebApiDemo1\obj\Debug\netcoreapp2.1\WebApiDemo1.dll
+D:\VSProjeler\WebAPI\WebApiDemo1\obj\Debug\netcoreapp2.1\WebApiDemo1.pdb
+D:\VSProjeler\WebAPI\WebApiDemo1\obj\Debug\netcoreapp2.1\WebApiDemo1.genruntimeconfig.cache
